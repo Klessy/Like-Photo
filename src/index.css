@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.my-4 {
+  margin-top: 3.75rem;
+  margin-bottom: 4rem;
+}
+
+/* Title and Subtitle */
+.title {
+  font-size: 3.75rem;
+  font-weight: 600;
+  margin: 3rem 0;
+}
+
+.title-main {
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 4rem 0;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 4rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+  /* .container {
+    padding-top: 3rem;
+  } */
+
+  .title {
+    font-size: 2.75rem;
+    font-weight: 600;
+    margin: 2rem 0;
+  }
+  
+  .title-main {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 4rem 0;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 4rem 0;
+  }
+
+  .my-4 {
+    margin-top: 2.75rem;
+    margin-bottom: 3rem;
+  }
+
+}
